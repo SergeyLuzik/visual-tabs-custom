@@ -1,0 +1,365 @@
+{
+	"title": {
+      "message": "New Tab"
+   },
+   "add_bookmark_btn_add": {
+      "message": "Add"
+   },
+   "add_bookmark_btn_close": {
+      "message": "I changed my mind"
+   },
+   "add_bookmark_label_1": {
+      "message": "Link to the page:"
+   },
+   "add_bookmark_label_2": {
+      "message": "Caption (not necessary):"
+   },
+   "add_bookmark_titel": {
+      "message": "Add to bookmarks"
+   },
+   "add_bookmark_context": {
+      "message": "Add to bookmarks"
+   },
+   "alert_file_size": {
+      "message": "Please mind that image size directly influences on the \"New page\" download speed."
+   },
+   "available_favicon": {
+      "message": "- available favicon"
+   },
+   "bg_c_1": {
+      "message": "Background color:"
+   },
+   "bg_c_2": {
+      "message": "background color"
+   },
+   "brag_m_2_1": {
+      "message": "Drag your file with logo here. \u003Cbr> Supported formats: JPG, GIF, PNG"
+   },
+   "brag_m_2_2": {
+      "message": "Drag your file for background here. \u003Cbr> Supported formats: JPG, GIF, PNG \u003Cbr> (do not use images with transparency)"
+   },
+   "check_off": {
+      "message": "off"
+   },
+   "check_on": {
+      "message": "on"
+   },
+   "chrome_extension_description": {
+      "message": "Speed Dial changes standard page to the new tab page with your saved bookmarks."
+   },
+   "chrome_extension_name": {
+      "message": "Speed Dial"
+   },
+   "chrome_extension_short_name": {
+      "message": "Speed Dial"
+   },
+   "drag_m_1": {
+      "message": "Drag your image here"
+   },
+   "drag_m_2": {
+      "message": "Ready! Save your settings or drag the new image here"
+   },
+   "drag_m_3": {
+      "message": "Something went wrong, please, try to download another image"
+   },
+   "drag_m_4": {
+      "message": "Supported formats: PNG, JPEG, JPG and GIF."
+   },
+   "edit_bookmark": {
+      "message": "Edit bookmark"
+   },
+   "export_mes": {
+      "message": "You can restore your bookmarks and settings by using the backup copy file. All your current data will be replaced by backup copy data"
+   },
+   "file_damaged": {
+      "message": "File is damaged"
+   },
+   "from_pc": {
+      "message": "Download from computer"
+   },
+   "h_dial_sett": {
+      "message": "Reset and hide settings"
+   },
+   "import_mes": {
+      "message": "Save all your bookmarks and settings into the file. You can restore or transfer them to another computer if necessary"
+   },
+   "in_standat": {
+      "message": "Standard"
+   },
+   "in_to_link": {
+      "message": "Download from link"
+   },
+   "link_to_img": {
+      "message": "Link to the image:"
+   },
+   "load_file_btn": {
+      "message": "Restore from file"
+   },
+   "loc_1": {
+      "message": "Background"
+   },
+   "loc_10": {
+      "message": "Choose where to display \"Settings\" and \"Groups\" buttons"
+   },
+   "loc_11": {
+      "message": "Atop"
+   },
+   "loc_12": {
+      "message": "Below"
+   },
+   "loc_13": {
+      "message": "If you want you can disable the background image"
+   },
+   "loc_14": {
+      "message": "Background color"
+   },
+   "loc_15": {
+      "message": "Background filling is activated only when \"background image\" is disabled"
+   },
+   "loc_16": {
+      "message": "If you enjoy using this extension, you can share it with your friends"
+   },
+   "loc_17": {
+      "message": "Instructions"
+   },
+   "loc_18": {
+      "message": "Main"
+   },
+   "loc_19": {
+      "message": "Shopping"
+   },
+   "loc_2": {
+      "message": "Display search bar"
+   },
+   "loc_20": {
+      "message": "What's new in v1.1"
+   },
+   "loc_21": {
+      "message": "Group"
+   },
+   "loc_22": {
+      "message": "Create new group"
+   },
+   "loc_23": {
+      "message": "Edit group"
+   },
+   "loc_24": {
+      "message": "Group name"
+   },
+   "loc_25": {
+      "message": "Icon"
+   },
+   "loc_26": {
+      "message": "Create"
+   },
+   "loc_27": {
+      "message": "Save changes"
+   },
+   "loc_28": {
+      "message": "What's new in v1.1"
+   },
+   "loc_29": {
+      "message": "Welcome to Speed Dial"
+   },
+   "loc_3": {
+      "message": "Groups"
+   },
+   "loc_30": {
+      "message": "To remove or edit the bookmark, click on it with the right mouse button and choose the respective action from menu list."
+   },
+   "loc_31": {
+      "message": "You can group the bookmarks. \u003Cbr> You can navigate through groups with a shortcut \u003Ccode>Alt + n\u003C/code> (where n is the group number)"
+   },
+   "loc_32": {
+      "message": "Groups can be also changed or edited via the context menu. Just click on the group button with the right mouse button. If you don't need some groups, you can disable them in Settings."
+   },
+   "loc_33": {
+      "message": "In the extension settings you can change background, search engine, plates size and many more. To open the settings, just click on the button with the cogwheel."
+   },
+   "loc_34": {
+      "message": "You can create the reserve copy of all your bookmarks on the settings page in \"Import/Export\" section."
+   },
+   "loc_35": {
+      "message": "If you have any difficulties with the extension use or you want to suggest us your ideas, please, \u003Ca href=\"http://feedback.speed-dial.net/\" target=\"_blank\">write us\u003C/a> about it. We appreciate the opinion of every our user."
+   },
+   "loc_36": {
+      "message": "Back"
+   },
+   "loc_37": {
+      "message": "Next"
+   },
+   "loc_38": {
+      "message": "Start using!"
+   },
+   "loc_39": {
+      "message": "Open in the new tab"
+   },
+   "loc_4": {
+      "message": "Allow to group the bookmarks"
+   },
+   "loc_40": {
+      "message": "Open in incognito mode"
+   },
+   "loc_41": {
+      "message": "Edit"
+   },
+   "loc_42": {
+      "message": "Delete"
+   },
+   "loc_43": {
+      "message": "Move all the bookmarks"
+   },
+   "loc_44": {
+      "message": "Edit"
+   },
+   "loc_45": {
+      "message": "Delete"
+   },
+   "loc_46": {
+      "message": "Delete group"
+   },
+   "loc_47": {
+      "message": "There are \u003Cb>"
+   },
+   "loc_47_2": {
+      "message": " bookmarks\u003C/b> in this group.\u003Cbr /> You can delete or move them to another group."
+   },
+   "loc_48": {
+      "message": "Delete bookmarks"
+   },
+   "loc_49": {
+      "message": "Move bookmarks to another group"
+   },
+   "loc_5": {
+      "message": "\"Group\" buttons view"
+   },
+   "loc_50": {
+      "message": "I confirm that I want to delete group"
+   },
+   "loc_51": {
+      "message": "Cancel"
+   },
+   "loc_52": {
+      "message": "Delete"
+   },
+   "loc_53": {
+      "message": "Move bookmarks"
+   },
+   "loc_54": {
+      "message": "Move bookmarks to group"
+   },
+   "loc_55": {
+      "message": "Cancel"
+   },
+   "loc_56": {
+      "message": "Move"
+   },
+   "loc_57": {
+      "message": "Do you want to delete the bookmark?"
+   },
+   "loc_58": {
+      "message": "Cancel"
+   },
+   "loc_59": {
+      "message": "Delete"
+   },
+   "loc_6": {
+      "message": "Icon and text"
+   },
+   "loc_7": {
+      "message": "Only text"
+   },
+   "loc_8": {
+      "message": "Only icon"
+   },
+   "loc_9": {
+      "message": "Control buttons position"
+   },
+   "main_setting": {
+      "message": "Main settings"
+   },
+   "only_spd": {
+      "message": "Use file with \".spd\" format"
+   },
+   "rate_1": {
+      "message": "Do you like your new \u003Cbr> \"Visual Bookmarks\" page?"
+   },
+   "rate_2": {
+      "message": "Remind me tomorrow..."
+   },
+   "rate_3": {
+      "message": "Rate"
+   },
+   "rate_4": {
+      "message": "Do not show again"
+   },
+   "rate_5": {
+      "message": "Please, rate us on Google WebStore. \u003Cbr> Your positive feedback is our best reward."
+   },
+   "reset_btn": {
+      "message": "reset"
+   },
+   "s_dial_sett": {
+      "message": "Show bookmark settings"
+   },
+   "save_file_btn": {
+      "message": "Save to file"
+   },
+   "save_set": {
+      "message": "Save settings"
+   },
+   "saving": {
+      "message": "Saving..."
+   },
+   "search_input": {
+      "message": "Search"
+   },
+   "sett_been_saved": {
+      "message": "Your settings have been saved!"
+   },
+   "sett_btn_resset": {
+      "message": "Reset to default"
+   },
+   "sett_btn_save": {
+      "message": "Save"
+   },
+   "sett_desc_1": {
+      "message": "Changes system that is used in the search bar."
+   },
+   "sett_desc_2": {
+      "message": "Allows to set the amount of cards \"bookmarks\" in one row"
+   },
+   "sett_desc_3": {
+      "message": "Insert link to the background image"
+   },
+   "sett_desc_4": {
+      "message": "The background with lowest quality will be downloaded by default. In some cases it will seriously increase the speed of \"New page\" opening"
+   },
+   "sett_label_1": {
+      "message": "Default search engine"
+   },
+   "sett_label_2": {
+      "message": "Amount of bookmarks in a row"
+   },
+   "sett_label_3": {
+      "message": "Background image"
+   },
+   "sett_label_4": {
+      "message": "Step-by-step background downloading "
+   },
+   "setting_title": {
+      "message": "Settings"
+   },
+   "suggested_background": {
+      "message": "- suggested background"
+   },
+   "tab_name_3": {
+      "message": "Import/Export"
+   },
+   "text_c": {
+      "message": "font color"
+   },
+   "yandex": {
+      "message": "Yandex"
+   }
+}
