@@ -205,7 +205,9 @@ body {
         margin-top: -2px; }
     .tab-block a:hover {
       opacity: .98;
-      box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3); }
+      box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3); 
+      transform: scale(1.05);
+      transition: .5s;}
     .tab-block a:before {
       content: ' ';
       width: 100%;
