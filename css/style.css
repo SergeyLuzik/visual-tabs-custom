@@ -241,6 +241,7 @@ body {
 
 .tab-block .tab-icon:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 .tab-block .edit_tab {
@@ -288,7 +289,7 @@ body {
   margin-top: -2px;
 }
 
-.tab-block a:hover {
+.tab-block a:hover, .tab-icon:hover ~ a {
   opacity: .98;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
   transform: scale(1.05);
@@ -307,6 +308,8 @@ body {
   background-image: -ms-linear-gradient(290deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.2) 100%);
   border-radius: inherit;
 }
+
+
 
 .tab-block a:after {
   content: '';
@@ -769,40 +772,29 @@ body {
   margin: 0 auto;
 }
 
+
+@property --angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 130deg;
+}
+
 .search_block_2 input {
   height: 40px;
   border-radius: 10px;
   background: linear-gradient(white, white) padding-box,
-    linear-gradient(130deg, #4285F4 0%, #4285F4 16.5%, #DB4437 16.5%, #DB4437 33%, #F4B400 33%, #F4B400 49.5%, #4285F4 49.5%, #4285F4 66%, #0F9D58 66%, #0F9D58 82.5%, #DB4437 82.5%, #DB4437 100%) border-box;
+    linear-gradient(var(--angle), #4285F4 0%, #4285F4 16.5%, #DB4437 16.5%, #DB4437 33%, #F4B400 33%, #F4B400 49.5%, #4285F4 49.5%, #4285F4 66%, #0F9D58 66%, #0F9D58 82.5%, #DB4437 82.5%, #DB4437 100%) border-box;
   border: 3px solid transparent;
+  transition: --angle .3s;
 
 
 }
+
 
 #search_input:focus {
-  background: linear-gradient(white, white) padding-box,
-    linear-gradient(30deg, #4285F4 0%, #4285F4 16.5%, #DB4437 16.5%, #DB4437 33%, #F4B400 33%, #F4B400 49.5%, #4285F4 49.5%, #4285F4 66%, #0F9D58 66%, #0F9D58 82.5%, #DB4437 82.5%, #DB4437 100%) border-box;
+  --angle: 30deg;
   border: 3px solid transparent;
-  
-/*   animation: rotate 1s; */
 }
-/* @keyframes rotate {
-  0% {
-    background: linear-gradient(white, white) padding-box,
-    linear-gradient(130deg, #4285F4 0%, #4285F4 16.5%, #DB4437 16.5%, #DB4437 33%, #F4B400 33%, #F4B400 49.5%, #4285F4 49.5%, #4285F4 66%, #0F9D58 66%, #0F9D58 82.5%, #DB4437 82.5%, #DB4437 100%) border-box;
-  border: 3px solid transparent;
-  }
-  50% {
-    background: linear-gradient(white, white) padding-box,
-    linear-gradient(50deg, #4285F4 0%, #4285F4 16.5%, #DB4437 16.5%, #DB4437 33%, #F4B400 33%, #F4B400 49.5%, #4285F4 49.5%, #4285F4 66%, #0F9D58 66%, #0F9D58 82.5%, #DB4437 82.5%, #DB4437 100%) border-box;
-  border: 3px solid transparent;
-  }
-  100% {
-    background: linear-gradient(white, white) padding-box,
-    linear-gradient(30deg, #4285F4 0%, #4285F4 16.5%, #DB4437 16.5%, #DB4437 33%, #F4B400 33%, #F4B400 49.5%, #4285F4 49.5%, #4285F4 66%, #0F9D58 66%, #0F9D58 82.5%, #DB4437 82.5%, #DB4437 100%) border-box;
-  border: 3px solid transparent;
-  }
-} */
 
 #tabs_page {
   padding-top: 70px;
